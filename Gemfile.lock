@@ -1,3 +1,17 @@
+GIT
+  remote: https://github.com/loadkpi/undercover.git
+  revision: 34defea4aeb21cd0586325b00dc6a52546bb3e9e
+  branch: fix-simplecov-filters
+  specs:
+    undercover (0.8.0)
+      base64
+      bigdecimal
+      imagen (>= 0.2.0)
+      rainbow (>= 2.1, < 4.0)
+      rugged (>= 0.27, < 1.10)
+      simplecov
+      simplecov_json_formatter
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -347,14 +361,6 @@ GEM
       railties (>= 7.1.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    undercover (0.8.0)
-      base64
-      bigdecimal
-      imagen (>= 0.2.0)
-      rainbow (>= 2.1, < 4.0)
-      rugged (>= 0.27, < 1.10)
-      simplecov
-      simplecov_json_formatter
     unicode-display_width (3.2.0)
       unicode-emoji (~> 4.1)
     unicode-emoji (4.1.0)
@@ -404,7 +410,7 @@ DEPENDENCIES
   thruster
   turbo-rails
   tzinfo-data
-  undercover
+  undercover!
   web-console
 
 BUNDLED WITH
