@@ -59,5 +59,5 @@ end
 group :test do
   gem "rspec-rails"
   gem "simplecov", require: false
-  gem "undercover"
+  gem "undercover", git: "https://github.com/loadkpi/undercover.git", branch: "fix-simplecov-filters"
 end
