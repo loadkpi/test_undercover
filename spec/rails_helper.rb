@@ -15,7 +15,9 @@ require 'undercover/simplecov_formatter'
 
 SimpleCov.formatter = SimpleCov::Formatter::Undercover
 
-SimpleCov.start
+SimpleCov.start do
+  add_filter 'pek'
+end
 
 # Requires supporting ruby files with custom matchers and macros, etc, in
 # spec/support/ and its subdirectories. Files matching `spec/**/*_spec.rb` are
